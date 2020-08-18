@@ -1,0 +1,335 @@
+@charset "utf-8";
+
+/* 行数限制 */
+
+.G-more-cloum {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.G-one-cloum {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.G-col-2 {
+    -webkit-line-clamp: 2;
+    word-break: break-all;
+}
+
+.G-page-hidden {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/* 组件公共 */
+
+.G-component {
+    position: relative;
+}
+
+page {
+    height: 100vh;
+    font-family: -apple-system, sans-serif;
+}
+
+.G-page-shadow {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
+
+view,
+scroll-view,
+swiper,
+swiper-item,
+movable-area,
+movable-view,
+cover-view,
+cover-image,
+icon,
+text,
+rich-text,
+progress,
+button,
+checkbox-group,
+checkbox,
+form,
+input,
+label,
+picker,
+picker-view,
+radio-group,
+radio,
+slider,
+switch,
+textarea,
+navigator,
+functional-page-navigator,
+image,
+video,
+camera,
+live-player,
+live-pusher,
+map,
+canvas,
+open-data,
+web-view,
+ad {
+    box-sizing: border-box;
+    font-size: 32px;
+}
+
+.G-bt-ccc {
+    border-bottom: 1px solid #ccc;
+}
+
+.G-bt-eee {
+    border-bottom: 1px solid #eee;
+}
+
+
+/* 字号 */
+
+.G-Fsize-9 {
+    font-size: 18px !important;
+}
+
+.G-Fsize-10 {
+    font-size: 20px !important;
+}
+
+.G-Fsize-11 {
+    font-size: 22px !important;
+}
+
+.G-Fsize-12 {
+    font-size: 24px !important;
+}
+
+.G-Fsize-13 {
+    font-size: 26px !important;
+}
+
+.G-Fsize-14 {
+    font-size: 28px !important;
+}
+
+.G-Fsize-15 {
+    font-size: 30px !important;
+}
+
+.G-Fsize-16 {
+    font-size: 32px !important;
+}
+
+.G-Fsize-17 {
+    font-size: 34px !important;
+}
+
+.G-Fsize-18 {
+    font-size: 36px !important;
+}
+
+.G-Fsize-20 {
+    font-size: 40px !important;
+}
+
+.G-Fsize-22 {
+    font-size: 44px !important;
+}
+
+.G-Fsize-24 {
+    font-size: 48px !important;
+}
+
+.G-Fsize-40 {
+    font-size: 80px !important;
+}
+
+.G-Fweight-700 {
+    font-weight: 700 !important;
+}
+
+.G-bold {
+    font-weight: 600 !important;
+}
+
+.G-icon-50 {
+    font-size: 100px !important;
+}
+
+.G-text-c {
+    text-align: center;
+}
+
+.G-text-l {
+    text-align: left;
+}
+
+.G-text-r {
+    text-align: right;
+}
+
+.G-visiblity-hidden {
+    visibility: hidden;
+}
+
+.G-bottom-btn {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: .45rem;
+    background-color: #f36e20;
+    font-size: 036px;
+    color: #fff;
+    text-align: center;
+    line-height: .45rem;
+}
+
+.empty-con {
+    font-size: 32px;
+    color: #666;
+    text-align: center;
+    margin-top: .6rem;
+}
+
+.G-w-100 {
+    width: 100%;
+}
+
+.G-inline-block {
+    display: inline-block
+}
+
+.confirm-btn {
+    width: 330px;
+    height: .45rem;
+    line-height: .45rem;
+    text-align: center;
+    background-color: #f36e20;
+    border-radius: 0.04rem;
+    font-size: 36px;
+    color: rgba(255, 255, 255, 1);
+    margin: 0 auto;
+    position: relative;
+}
+
+.confirm-min-btn {
+    width: 2.7rem;
+    height: .45rem;
+    line-height: .45rem;
+    text-align: center;
+    background: rgba(243, 110, 32, 1);
+    border-radius: 0.04rem;
+    color: rgba(255, 255, 255, 1);
+    margin: 0 auto;
+    position: relative;
+}
+
+.confirm-border {
+    width: 330px;
+    height: .45rem;
+    line-height: .45rem;
+    text-align: center;
+    background: #fff;
+    border: 1px solid rgba(243, 110, 32, 1);
+    border-radius: 0.05rem;
+    font-size: 36px;
+    font-weight: bold;
+    color: #F36E20;
+    margin: 0 auto;
+}
+
+
+/*按钮蓝色*/
+
+.G-Btn-blue {
+    width: 330px;
+    height: .45rem;
+    line-height: .45rem;
+    text-align: center;
+    background: rgba(32, 131, 243, 1);
+    border-radius: 0.04rem;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    margin: 0 auto;
+}
+
+
+/**/
+
+.get-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 30;
+    width: 100%;
+    height: 100%;
+    background: none;
+    opacity: 0;
+}
+
+.join-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background: none;
+    opacity: 0;
+}
+
+.form-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 6;
+    width: 100%;
+    height: 100%;
+    background: none;
+    opacity: 0;
+}
+
+.ios-textarea {
+    margin-left: -11rpx
+}
+
+.border-bom {
+    border-bottom: 1px solid #ECECEC;
+}
+
+.heightX {
+    height: .84rem!important;
+    padding-bottom: .34rem;
+    background: #fff;
+}
+
+.G-content-x {
+    padding-bottom: .34rem;
+}
+
+button::after {
+    width: 0!important;
+    height: 0!important;
+    border: none!important;
+}
+
+.fast-partner {
+    position: fixed;
+    top: 4.58rem;
+    right: 20px;
+    width: 0.8rem;
+    height: 0.8rem;
+    z-index: 99;
+}

@@ -1,0 +1,107 @@
+
+// 顶部导航
+.navbar {
+    width: 750px;
+    height: 100px;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    .position {
+      border-radius: 32px;
+      display: flex;
+      align-items: center;
+      width: 200px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      .iconweizhi {
+        font-size: 32px;
+        color: #F36E20;
+      }
+      .iconxiala {
+        margin-left: 4px;
+        font-size: 8px;
+        color: #333;
+      }
+      .text {
+        font-size: 32px;
+        font-weight: bold;
+        color: #333;
+        padding: 0 4px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    }
+    .search {
+      background-color: #F5F8FA;
+      border-radius: 30px;
+      width: 100px;
+      height: 60px;
+      .iconfont {
+        font-size: 32px;
+      }
+    }
+  }
+
+  //轮播图
+  // 轮播图
+.swiper {
+  background: #fff;
+  position: relative;
+  height: 280px;
+  .swiper-item {
+    width: 750px;
+    height: 280px;
+    image {
+      display: block;
+      width: 750px;
+      height: 280px;
+    } 
+  }
+}
+// 商圈
+.hot-goods,
+.news {
+  width: 750px;
+  padding-bottom: 10px;
+  .title {
+    padding: 48px 30px 34px;
+    .text {
+      font-size: 36px;
+      color: #333;
+      font-weight: bold;
+    }
+    .tips {
+      font-size: 24px;
+      color: #F39A66;
+      margin-left: 20px;
+      background:#faf1eb;
+      padding: 2px 10px;
+      border-radius: 4px;
+      font-weight: 500;
+    }
+    .union-footer{
+      font-size: 28px;
+    }
+  }
+  .news {
+    padding-bottom: 20px;
+  }
+  .footer {
+    overflow: hidden;
+    a {
+      margin: 0 auto;
+      width: 690px;
+      height: 80px;
+      background-color: #f36e20;
+      border-radius: 8px;
+      line-height: 80px;
+      text-align: center;
+      font-size: 36px;
+      color: #ffffff;
+    }
+  }
+}

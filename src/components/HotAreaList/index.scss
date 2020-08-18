@@ -1,0 +1,50 @@
+
+.lists {
+	width: 690px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: -webkit-flex;
+  .logoImg{
+    width: 200px;
+    height: 220px;
+    border-radius: 4px;
+    margin-right: 20px;
+  }
+  .infos{
+    width: 72%;
+    position: relative;
+    .title{
+      color: #333;
+      font-size: 32px;
+    }
+    .logos{
+      width: 100%;
+      height: 40px;
+      margin:24px 0 20px 0; 
+      image{
+        width: 40px;
+        height: 40px;
+        background-color: #ffffff;
+        border-radius: 50%;
+        border:1px solid rgba(236,236,236,1);
+      }
+      .logosImg:not(:nth-child(1)){
+        margin-left: -10px;
+      }
+    }
+    .activity{
+      color: #333;
+      font-size: 28px;
+      display: flex;
+      .color{
+        font-size: 28px;
+        color: #F39A66;
+      }
+    }
+
+    .km{
+      font-size: 24px;
+      color: #666;
+    }
+  }
+}
